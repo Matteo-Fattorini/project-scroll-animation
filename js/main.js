@@ -3,6 +3,7 @@
 
 $(window).scroll(checkBoxes)
 
+checkBoxes();
 
 function checkBoxes() {
     let trigger = $(window).innerHeight() / 5 * 4;
